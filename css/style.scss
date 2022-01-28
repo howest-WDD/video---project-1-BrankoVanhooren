@@ -172,10 +172,10 @@ h3 {
   margin:left;
 }
 
-.c-video {
-  h3 {
-      display: inline;
-    }
+.c-video__width {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
 }
 
 .c-video__text {
