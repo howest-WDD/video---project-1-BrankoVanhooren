@@ -60,7 +60,8 @@ h3 {
 }
 
 .container-help {
-  height: 500px;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .o-container {
@@ -198,7 +199,7 @@ h3 {
 }
 
 .c-contact {
-  width: 70%;
+  width: 100%;
   margin: auto;
   margin-top: 3rem;
 }
@@ -209,6 +210,21 @@ h3 {
 }
 
 .c-contact__openingsuren {
+  margin-top: 8%;
+  margin-left: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 15em;
   text-align: center;
   color: #2c4d84;
@@ -250,13 +266,7 @@ h3 {
 }
 
 .c-contact__h1 {
-  font-size: 2em;
-}
-
-.c-contact__googlemaps {
-  width: auto;
-  float: left;
-  padding-right: 5em;
+  font-size: 2em !important;
 }
 
 .button {
@@ -278,26 +288,6 @@ h3 {
   color: white;
   text-align: center;
   height: 30em;
-}
-
-.contact-footer {
-  width: auto;
-}
-
-.media-footer {
-  width: auto;
-}
-
-.website-footer {
-  width: auto;
-}
-
-.prijs-footer {
-  width: auto;
-}
-
-.logos-footer {
-  width: auto;
 }
 
 footer {
@@ -413,5 +403,18 @@ footer {
 .accordion-button:not(.collapsed) {
   color: #ffdf41 !important;
   background-color: #2c4d84 !important;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.text-center {
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.container-padding {
+  padding-top: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
